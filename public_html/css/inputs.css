@@ -1,0 +1,45 @@
+@font-face {
+    font-family: LCD Solid;
+    src: url("/fonts/LCD_Solid.ttf");
+}
+
+.td-input-side {
+    font-size: 0;
+    height: 150px;
+    width: 50px;
+}
+
+.td-input-middle {
+    max-height: 150px;
+    background-image:  url(/img/input/input-matrix-bg-left-start.png), url(/img/input/input-matrix-bg-right-start.png), url(/img/input/input-matrix-bg-middle.png);
+    background-position: left, right, center;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    position: relative;
+}
+
+.font-text {
+    font-family: LCD Solid;
+    text-align: center;
+    font-size: 50px;
+    background-image: url("/img/input/input-matrix-bg.gif");
+}
+
+.input-matrix {
+    color: #c9f6da;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    border: 0px;
+    text-shadow: 0 0 0.2em #8F7;
+    outline: none;
+    margin: 0px;
+    padding: 0px;
+}
+.input-matrix::selection{
+    background: #86dda7;
+    color: #ffffff;
+}
+
+.caps {
+    text-transform: uppercase;
+}
